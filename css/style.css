@@ -68,7 +68,7 @@
 
 #left_pl>i,
 #right_pl>i {
-    margin: 40px 0 0 20px;
+    margin: 40px 0 0 10px;
 }
 
 /* center */
@@ -84,11 +84,35 @@
     margin-top: 70px;
 }
 
+#icon {
+    text-align: center;
+}
+
 #icon i {
     font-size: 30px;
     margin: 15px 20px 20px 0;
 }
 
+#music {
+    display: flex;
+    flex-direction: row;
+}
 
+.song {
+    margin: 5px;
+    height: 5px;
+    width: 500px;
+    background-color: white;
+    border-radius: 10px;
+}
 
 /* right */
+#right_pl {
+    display: flex;
+    flex-direction: row;
+}
+
+.rgt {
+    margin-top: 45px;
+    width: 100px;
+}
