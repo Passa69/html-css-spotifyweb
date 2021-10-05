@@ -38,4 +38,37 @@
 #player {
     background-color: rgb(119, 118, 118);
     height: 100px;
+    display: flex;
 }
+
+/* left */
+#left_pl::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#left_pl>img,
+#left_pl>span,
+#left_pl>i {
+    float: left;  
+} 
+
+#left_pl>img {
+    width: 60px;
+    height: 60px;
+    margin: 20px 10px;
+}
+
+#left_pl>span {
+    margin: 30px 10px;
+}
+
+#left_pl>i {
+    margin: 40px 0 0 20px;
+}
+
+/* center */
+
+
+/* right */
