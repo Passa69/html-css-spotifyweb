@@ -112,6 +112,10 @@
 
 @media screen and (max-width: 880px) {
     
+    #icon i {
+        font-size: 25px;
+    }
+
     .song {
         width: 200px;
     }
@@ -134,7 +138,6 @@
 
     #icon i {
         font-size: 20px;
-        margin: 15px 20px 20px 0;
     }
 }
 
@@ -155,6 +158,5 @@
 
     #icon i {
         font-size: 15px;
-        margin: 15px 20px 20px 0;
     }
 }
