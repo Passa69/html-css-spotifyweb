@@ -5,3 +5,37 @@
     box-sizing: border-box;
     font-family: 'Montserrat', sans-serif;
 }
+
+/* wrapper */
+#wrapper::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#wrapper {
+    height: calc(100vh - 100px);
+}
+
+#list {
+    height: calc(100vh - 100px);
+    width: 15%;
+    float: left;
+    /* debug */
+    background-color: rgb(255, 59, 59);
+}
+
+#corp {
+    width: 85%;
+    float: left;
+    overflow-y: auto;
+    /* debug */
+    height: calc(100vh - 100px);
+    background-color: lightblue;
+}
+
+/* player */
+#player {
+    background-color: rgb(119, 118, 118);
+    height: 100px;
+}
