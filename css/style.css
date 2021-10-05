@@ -39,6 +39,8 @@
     background-color: rgb(119, 118, 118);
     height: 100px;
     display: flex;
+    justify-content: space-between;
+    flex-direction: row;
 }
 
 /* left */
@@ -64,11 +66,29 @@
     margin: 30px 10px;
 }
 
-#left_pl>i {
+#left_pl>i,
+#right_pl>i {
     margin: 40px 0 0 20px;
 }
 
 /* center */
+#center_pl::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#center_pl>span,
+#center_pl>div {
+    float: left;
+    margin-top: 70px;
+}
+
+#icon i {
+    font-size: 30px;
+    margin: 15px 20px 20px 0;
+}
+
 
 
 /* right */
