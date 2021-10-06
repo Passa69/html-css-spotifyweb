@@ -232,6 +232,10 @@
 @media screen and (max-width: 550px) {
     
     /* aside */
+    #list {
+        width: 10%;
+    }
+
     #new_pl>h4 {
         display: none;
     }
@@ -243,12 +247,12 @@
     #logoxs {
         display: block;
         width: 50%;
-        margin: 10px 0 10px 20px;
+        margin: 10px 0 10px 13px;
     }
     
     .fa-search,
     .fa-grip-lines-vertical {
-        margin-left: 30px;
+        margin-left: 13px;
     }
 
     .fas>span {
@@ -256,7 +260,7 @@
     }
 
     .fa-home {
-        margin-left: 22px;
+        margin-left: 8px;
         border-left: none;
     }
 
@@ -268,10 +272,13 @@
         display: none;
     }
 
-    #arrow_dw,
-    #user {
-        margin-left: 25px;
+    #arrow_dw {
+        margin-left: 13px;
         border-bottom: none;
+    }
+
+    #user {
+        margin-left: 11px;
     }
 
     .fa-arrow-alt-circle-down>span {
@@ -280,6 +287,11 @@
 
     #user>strong {
         display: none;
+    }
+
+    /* main */
+    #corp {
+        width: 90%;
     }
 
     /* player */
