@@ -15,6 +15,7 @@
 
 #wrapper {
     height: calc(100vh - 100px);
+    overflow: hidden;
 }
 
 /* aside */
@@ -75,7 +76,6 @@
 
 #playlist {
     margin: 10px 5px;
-    overflow-y: auto;
 }
 
 #playlist>li {
