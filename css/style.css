@@ -36,7 +36,7 @@
 
 /* player */
 #player {
-    background-color: rgb(119, 118, 118);
+    background-color: #282828;
     height: 100px;
     display: flex;
     justify-content: space-between;
@@ -56,11 +56,13 @@
 }
 
 #left_pl>span {
+    color: white;
     margin: 30px 0;
 }
 
 #icons,
 #right_pl>i {
+    color: white;
     margin: 40px 0 0 10px;
 }
 
@@ -82,11 +84,13 @@
 }
 
 #icon i {
+    color: white;
     font-size: 30px;
     margin: 15px 20px 20px 0;
 }
 
 #music {
+    color: white;
     display: flex;
     flex-direction: row;
 }
