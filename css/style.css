@@ -112,6 +112,28 @@
     background-color: lightblue;
 }
 
+#header {
+    background-color: #080b12;
+    height: 15%;
+}
+
+#header::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#buttons {
+    float: right;
+    background-color: #080b12;
+    border: 2px solid white;
+    color: white;
+    border-radius: 15px;
+    padding: 5px 15px;
+    margin: 4% 2%;
+    font-size: 10px;
+}
+
 /* player */
 #player {
     background-color: #282828;
@@ -192,6 +214,7 @@
     width: 100px;
 }
 
+/* responsive */
 @media screen and (max-width: 880px) {
     
     #icon i {
