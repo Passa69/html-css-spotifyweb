@@ -62,7 +62,7 @@
 }
 
 #new_pl {
-    margin: 10px 5px;
+    margin: 20px 5px;
 }
 
 #new_pl>h4 {
@@ -75,7 +75,7 @@
 }
 
 #playlist {
-    margin: 10px 5px;
+    margin: 20px 5px;
 }
 
 #playlist>li {
@@ -106,15 +106,18 @@
 #corp {
     width: 85%;
     float: left;
+    background-color: #141922;
     overflow-y: auto;
     /* debug */
     height: calc(100vh - 100px);
-    background-color: lightblue;
 }
 
 #header {
     background-color: #080b12;
+    opacity: 0.9;
     height: 15%;
+    width: 85%;
+    position: fixed;
 }
 
 #header::after {
@@ -130,7 +133,7 @@
     color: white;
     border-radius: 15px;
     padding: 5px 15px;
-    margin: 30px 10px;
+    margin: 35px 10px;
     font-size: 10px;
 }
 
