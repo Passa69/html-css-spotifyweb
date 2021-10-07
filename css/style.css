@@ -104,7 +104,7 @@
 
 /* main */
 #corp {
-    width: 85%;
+    width: 85vw;
     float: left;
     background-color: #141922;
     overflow-y: auto;
@@ -140,7 +140,7 @@
 /* nav */
 #menu {
     text-align: center;
-    margin-top: 9%;
+    margin-top: 10%;
 }
 
 #menu>li {
@@ -159,6 +159,9 @@ li>a {
     border-bottom: 2px solid rgb(137, 199, 44);
     padding-bottom: 5px;
 }
+
+/* media */
+
 
 /* player */
 #player {
@@ -250,6 +253,15 @@ li>a {
     .song {
         width: 200px;
     }
+
+    /* main */
+    #menu {
+        margin-top: 15%;
+    }
+
+    #menu>li {
+        font-size: 10px;
+    }
 }
 
 @media screen and (max-width: 640px) {
@@ -275,6 +287,10 @@ li>a {
     /* main */
     #corp {
         width: 75%;
+    }
+
+    #menu {
+        margin-top: 22%;
     }
 
 
