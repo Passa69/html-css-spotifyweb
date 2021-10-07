@@ -137,6 +137,29 @@
     font-size: 10px;
 }
 
+/* nav */
+#menu {
+    text-align: center;
+    margin-top: 9%;
+}
+
+#menu>li {
+    font-size: 15px;
+    text-decoration: none;
+    display: inline;
+    margin-left: 15px;
+}
+
+li>a {
+    text-decoration: none;
+    color: rgb(146, 146, 146);
+}
+
+#choose {
+    border-bottom: 2px solid rgb(137, 199, 44);
+    padding-bottom: 5px;
+}
+
 /* player */
 #player {
     background-color: #282828;
