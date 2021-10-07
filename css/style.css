@@ -344,6 +344,10 @@ li>a {
         width: calc((100% - 120px) / 2);
     }
 
+    #header {
+        width: 75%;
+    }
+
     /* player */
     #icons {
         display: flex;
@@ -425,6 +429,10 @@ li>a {
 
     /* main */
     #corp {
+        width: 90%;
+    }
+
+    #header {
         width: 90%;
     }
 
