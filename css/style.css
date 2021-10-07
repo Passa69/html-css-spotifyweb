@@ -191,6 +191,16 @@ li>a {
     color: white;
 }
 
+.descr {
+    margin-top: 5px;
+    font-size: 12px;
+    color: rgb(146, 146, 146);
+}
+
+.artist>img {
+    border-radius: 50%;
+}
+
 /* player */
 #player {
     background-color: #282828;
