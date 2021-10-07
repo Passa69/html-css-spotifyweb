@@ -166,7 +166,7 @@ li>a {
     margin: 50px 10px 0 10px;
 }
 
-#recent {
+.music {
     display: flex;
     flex-flow: row wrap;
 }
@@ -178,10 +178,10 @@ li>a {
 
 .album>img {
     width: 100%;
+    position: relative;
 }
 
 .description {
-    text-align: center;
     color: rgb(146, 146, 146);
     font-size: 10px;
 }
@@ -199,6 +199,19 @@ li>a {
 
 .artist>img {
     border-radius: 50%;
+}
+
+.album>img:hover {
+    background-color: black;
+    opacity: 0.4;
+}
+
+.fa-play-circle {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
 /* player */
