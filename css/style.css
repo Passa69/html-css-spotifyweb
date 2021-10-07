@@ -161,7 +161,35 @@ li>a {
 }
 
 /* media */
+.section_title {
+    color: white;
+    margin: 50px 10px 0 10px;
+}
 
+#recent {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.album {
+    margin: 35px 10px ;
+    width: calc((100% - 120px) / 6);
+}
+
+.album>img {
+    width: 100%;
+}
+
+.description {
+    text-align: center;
+    color: rgb(146, 146, 146);
+    font-size: 10px;
+}
+
+.title {
+    font-size: 15px;
+    color: white;
+}
 
 /* player */
 #player {
