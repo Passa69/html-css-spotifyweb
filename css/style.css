@@ -118,6 +118,7 @@
     height: 15%;
     width: 85%;
     position: fixed;
+    z-index: 999;
 }
 
 #header::after {
